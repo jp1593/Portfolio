@@ -1,6 +1,11 @@
+import Header from "../src/components/Header";
 
 function App() {
-  return <p className="text-center">Portfolio</p>;
+  return (
+    <div className="bg-black">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
