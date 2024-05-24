@@ -2,37 +2,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 25%;
+  width: 30%;
   height: 60px;
 }
 
-/* .transition { 
-    height: 80px;
-    width: 25%;
-    margin: -95px 0;
-    background: linear-gradient(to right, #ffff00 0%, #ff3399 100%);
-    border: none; 
-    transition: .5s ease-in-out;
-} */
-
-.ul li {
-  position: relative; /* Required for positioning the ::after element */
-  color: red;
-  transition: color 0.3s ease-in-out; /* Optional: transition for text color */
+a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: normal;
+    padding: 0 10px;
 }
 
-.ul li::after {
-  content: ""; /* Empty content for the pseudo-element */
-  position: absolute; /* Absolute positioning within the li */
-  top: 0;
-  left: 0;
-  width: 100%; /* Match the width of the li element */
-  height: 100%; /* Match the height of the li element */
-  background-color: transparent; /* Initial background color */
-  transition: background-color 0.3s ease-in-out; /* Transition for background color */
-  z-index: -1; /* Place behind the text content */
+a:after{
+    content: "";
+    position: absolute;
+    background-color: dodgerblue;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
 }
 
-.ul li:hover::after {
-  background-color: blueviolet; /* Hover background color */
+a:hover{
+    color:dodgerblue;
+}
+
+a:hover::after{
+    width: 100%;
 }
