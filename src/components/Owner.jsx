@@ -4,19 +4,19 @@ import Socials from "../components/Social";
 
 export default function Owner() {
   return (
-    <section class="p-20">
+    <section class="p-10">
       <div class="container mx-auto">
         <div class="flex justify-center">
-          <div class="flex flex-col gap-5 text-center">
+          <div class="flex flex-col gap-10 text-center">
             <img class="ownimage mx-auto" src={OWN} />
             <div class="flex flex-col gap-3">
               <h1 class="text-white text-5xl">Juan Pablo Estrada Lucero</h1>
-              <p class="text-gray-400 text-2xl mb-5">
-                Full Stack Developer / Backend developer (Python, MySql, Java
+              <p class="rolcolor text-2xl mb-5">
+                Full Stack Developer / Backend developer (Python, Java
                 Script, MySql)
               </p>
               <Socials />
-              <p class="text-white text-xl mt-10">asdfasfasfasdfasdf</p>
+              <p class="text-white text-xl mt-10">I am a Software Engineer that is wiling to improve in the professional area in</p>
             </div>
           </div>
         </div>

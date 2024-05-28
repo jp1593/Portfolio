@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="bg-black arvo-regular">\
+    <div className="rgb-background arvo-regular">
       <Header />
       <Owner />
     </div>
