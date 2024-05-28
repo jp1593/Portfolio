@@ -1,7 +1,10 @@
 export default function Social() {
   return (
     <div class="container max-w-screen-lg mx-auto">
-      <button class="bg-blue-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+      <a
+        class="bg-blue-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
+        href="https://www.linkedin.com/in/juan-pablo-estrada-lucero-18936b247/"
+      >
         <svg
           class="w-5 h-5 fill-current"
           role="img"
@@ -13,8 +16,11 @@ export default function Social() {
           </g>
         </svg>
         <span>LinkedIn</span>
-      </button>
-      <button class="bg-gray-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded mx-5">
+      </a>
+      <a
+        class="bg-gray-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded mx-5"
+        href="https://github.com/jp1593"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           aria-hidden="true"
@@ -33,7 +39,7 @@ export default function Social() {
           </g>
         </svg>
         <span>GitHub</span>
-      </button>
+      </a>
     </div>
   );
 }
