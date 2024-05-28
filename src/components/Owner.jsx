@@ -1,6 +1,6 @@
 import OWN from "../assets/OWN.jpeg";
 import "./Owner.css";
-import Socials from "../components/Social"; 
+import Socials from "../components/Social";
 
 export default function Owner() {
   return (
@@ -11,11 +11,11 @@ export default function Owner() {
             <img class="ownimage mx-auto" src={OWN} />
             <div class="flex flex-col gap-3">
               <h1 class="text-white text-5xl">Juan Pablo Estrada Lucero</h1>
-              <p class="text-gray-400 text-2xl">
+              <p class="text-gray-400 text-2xl mb-5">
                 Full Stack Developer / Backend developer (Python, MySql, Java
                 Script, MySql)
               </p>
-              <Socials/>
+              <Socials />
               <p class="text-white text-xl mt-10">asdfasfasfasdfasdf</p>
             </div>
           </div>

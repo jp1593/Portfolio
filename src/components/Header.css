@@ -6,7 +6,7 @@
   height: 60px;
 }
 
-a{
+.a-header{
     position: relative;
     text-decoration: none;
     color: white;
@@ -15,7 +15,7 @@ a{
     padding: 0 10px;
 }
 
-a:after{
+.a-header:after{
     content: "";
     position: absolute;
     background-color: dodgerblue;
@@ -26,10 +26,10 @@ a:after{
     transition: 0.3s;
 }
 
-a:hover{
+.a-header:hover{
     color:dodgerblue;
 }
 
-a:hover::after{
+.a-header:hover::after{
     width: 100%;
 }
