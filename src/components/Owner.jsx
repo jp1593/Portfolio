@@ -11,12 +11,16 @@ export default function Owner() {
             <img class="ownimage mx-auto" src={OWN} />
             <div class="flex flex-col gap-3">
               <h1 class="text-white text-5xl">Juan Pablo Estrada Lucero</h1>
-              <p class="rolcolor text-2xl mb-5">
-                Full Stack Developer / Backend developer (Python, Java
-                Script, MySql)
+              <p class="rolcolor text-2xl">
+                Full Stack Developer / Backend developer
               </p>
+              <p class="text-6xl mb-5">🇬🇹</p>
               <Socials />
-              <p class="text-white text-xl mt-10">I am a Software Engineer that is wiling to improve in the professional area in</p>
+              <p class="text-white text-xl mt-10">
+                I am a systems engineer and student of technology, I work as a
+                full stack developer with a greater focus on the Backend
+                section.
+              </p>
             </div>
           </div>
         </div>
