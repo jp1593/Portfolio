@@ -3,7 +3,7 @@ import "./Header.css";
 function Header() {
   return (
     <header>
-      <div className="flex item-center justify-center py-10">
+      <div className="flex item-center justify-center py-5">
         <div className="containerh text-white border rounded-full">
           <nav className="justify-between items-center h-10 p-10 hidden sm:flex">
             <ul className="flex gap-10">
