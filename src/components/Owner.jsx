@@ -10,8 +10,8 @@ export default function Owner() {
           <div class="flex flex-col gap-10 text-center">
             <img class="ownimage mx-auto" src={OWN} />
             <div class="flex flex-col gap-3">
-              <h1 class="text-white text-5xl">Juan Pablo Estrada Lucero</h1>
-              <p class="rolcolor text-2xl">
+              <h1 class="text-white text-5xl animated-h1">Juan Pablo Estrada Lucero</h1>
+              <p class="rolcolor text-2xl mb-2">
                 Full Stack Developer / Backend developer
               </p>
               <p class="text-6xl mb-5">🇬🇹</p>
