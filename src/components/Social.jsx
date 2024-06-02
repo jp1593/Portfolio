@@ -2,13 +2,13 @@ import { Download } from "lucide-react";
 
 export default function Social() {
   return (
-    <div class="container max-w-screen-lg mx-auto">
+    <div className="container max-w-screen-lg mx-auto">
       <a
-        class="bg-blue-600 hover:bg-gray-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
+        className="bg-blue-600 hover:bg-gray-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
         href="https://www.linkedin.com/in/juan-pablo-estrada-lucero-18936b247/"
       >
         <svg
-          class="w-5 h-5 fill-current"
+          className="w-5 h-5 fill-current"
           role="img"
           viewBox="0 0 256 256"
           xmlns="http://www.w3.org/2000/svg"
@@ -20,14 +20,14 @@ export default function Social() {
         <span>LinkedIn</span>
       </a>
       <a
-        class="bg-gray-700 hover:bg-gray-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded mx-5"
+        className="bg-gray-700 hover:bg-gray-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded mx-5"
         href="https://github.com/jp1593"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           aria-hidden="true"
           role="img"
-          class="w-5"
+          className="w-5"
           preserveAspectRatio="xMidYMid meet"
           viewBox="0 0 24 24"
         >
@@ -43,7 +43,7 @@ export default function Social() {
         <span>GitHub</span>
       </a>
 
-      <button class="bg-red-500 hover:bg-gray-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+      <button className="bg-red-500 hover:bg-gray-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
         <Download />
         <span>CV</span>
       </button>

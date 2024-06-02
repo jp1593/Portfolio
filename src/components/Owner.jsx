@@ -5,20 +5,21 @@ import Socials from "../components/Social";
 export default function Owner() {
   return (
     <section>
-      <div class="container mx-auto">
-        <div class="flex justify-center">
-          <div class="flex flex-col text-center">
-            <img class="ownimage mx-auto" src={OWN} alt="Owner" />
-            <div class="flex flex-col gap-3">
-              <h1 class="text-white text-5xl animated-h1">
+      <div className="container mx-auto">
+        <div className="flex justify-center">
+          <div className="flex flex-col text-center">
+            <img className="ownimage mx-auto" src={OWN} alt="Owner" />
+            <div className="flex flex-col gap-3">
+              <h1 className="text-white text-5xl animated-h1">
                 Juan Pablo Estrada Lucero
               </h1>
-              <p class="rolcolor text-2xl mb-2">
+              <p className="rolcolor text-2xl mb-2">
                 Full Stack Developer / Backend Developer
               </p>
-              <p class="text-6xl mb-5">🇬🇹</p>
+              <span clas> Open to work</span>
+              <p className="text-6xl mb-5">🇬🇹</p>
               <Socials />
-              <p class="text-white text-xl mt-10">
+              <p className="text-white text-xl mt-10">
                 Transforming ideas into realities
               </p>
             </div>
