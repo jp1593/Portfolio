@@ -4,15 +4,17 @@ import Socials from "../components/Social";
 
 export default function Owner() {
   return (
-    <section class="p-10">
+    <section>
       <div class="container mx-auto">
         <div class="flex justify-center">
-          <div class="flex flex-col gap-10 text-center">
-            <img class="ownimage mx-auto" src={OWN} />
+          <div class="flex flex-col text-center">
+            <img class="ownimage mx-auto" src={OWN} alt="Owner" />
             <div class="flex flex-col gap-3">
-              <h1 class="text-white text-5xl animated-h1">Juan Pablo Estrada Lucero</h1>
+              <h1 class="text-white text-5xl animated-h1">
+                Juan Pablo Estrada Lucero
+              </h1>
               <p class="rolcolor text-2xl mb-2">
-                Full Stack Developer / Backend developer
+                Full Stack Developer / Backend Developer
               </p>
               <p class="text-6xl mb-5">🇬🇹</p>
               <Socials />

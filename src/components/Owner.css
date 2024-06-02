@@ -1,7 +1,7 @@
 .ownimage {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
+  width: 300px;
+  height:fit-content;
+  clip-path: circle();
 }
 
 .rolcolor {
