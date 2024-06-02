@@ -17,9 +17,7 @@ export default function Owner() {
               <p class="text-6xl mb-5">🇬🇹</p>
               <Socials />
               <p class="text-white text-xl mt-10">
-                I am a systems engineer and student of technology, I work as a
-                full stack developer with a greater focus on the Backend
-                section.
+                Transforming ideas into realities
               </p>
             </div>
           </div>
