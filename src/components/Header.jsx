@@ -8,16 +8,24 @@ function Header() {
           <nav className="justify-between items-center h-10 p-10 hidden sm:flex">
             <ul className="flex gap-10">
               <li>
-                <a className="a-header" href="/experience">Experience</a>
+                <a className="a-header" href="/experience">
+                  Experience
+                </a>
               </li>
               <li>
-                <a className="a-header" href="/projects">Projects</a>
+                <a className="a-header" href="/projects">
+                  Projects
+                </a>
               </li>
               <li>
-                <a className="a-header" href="/stack">Stack</a>
+                <a className="a-header" href="/stack">
+                  Stack
+                </a>
               </li>
               <li>
-                <a className="a-header" href="/contact">Contact</a>
+                <a className="a-header" href="/contact">
+                  Contact
+                </a>
               </li>
             </ul>
           </nav>
