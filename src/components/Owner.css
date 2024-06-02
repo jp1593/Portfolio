@@ -1,7 +1,13 @@
 .ownimage {
   width: 300px;
-  height:fit-content;
+  height: fit-content;
   clip-path: circle();
+}
+
+.work-tag {
+  color: white;
+  background: rgba(112, 201, 112, 0.5); /* Adjust opacity value as needed */  margin-right: 220px;
+  margin-left: 220px;
 }
 
 .rolcolor {

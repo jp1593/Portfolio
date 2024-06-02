@@ -16,8 +16,8 @@ export default function Owner() {
               <p className="rolcolor text-2xl mb-2">
                 Full Stack Developer / Backend Developer
               </p>
-              <span clas> Open to work</span>
-              <p className="text-6xl mb-5">🇬🇹</p>
+              <span className="border rounded-full work-tag mb-2">Available to work</span>
+              <p className="text-6xl mb-2">🇬🇹</p>
               <Socials />
               <p className="text-white text-xl mt-10">
                 Transforming ideas into realities
