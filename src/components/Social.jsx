@@ -1,10 +1,10 @@
-import PDFIMAGE from "../assets/pdf-svgrepo-com.svg"
+import PDFIMAGE from "../assets/pdf-svgrepo-com.svg";
 
 export default function Social() {
   return (
     <div class="container max-w-screen-lg mx-auto">
       <a
-        class="bg-blue-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
+        class="bg-blue-600 hover:bg-gray-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
         href="https://www.linkedin.com/in/juan-pablo-estrada-lucero-18936b247/"
       >
         <svg
@@ -20,7 +20,7 @@ export default function Social() {
         <span>LinkedIn</span>
       </a>
       <a
-        class="bg-gray-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded mx-5"
+        class="bg-gray-700 hover:bg-gray-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded mx-5"
         href="https://github.com/jp1593"
       >
         <svg
@@ -43,7 +43,7 @@ export default function Social() {
         <span>GitHub</span>
       </a>
 
-      <button class="bg-red-500 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+      <button class="bg-red-500 hover:bg-gray-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
         {/* <PDFIMAGE/> */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
