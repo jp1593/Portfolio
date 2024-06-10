@@ -23,6 +23,16 @@ export default function Stack() {
       <img className="logos" src={MYSQL} />
       <img className="logos" src={Node} />
       <img className="logos" src={git} />
+      <img className="logos" src={HTML} />
+      <img className="logos" src={CSS} />
+      <img className="logos" src={React} />
+      <img className="logos" src={Svelte} />
+      <img className="logos" src={JS} />
+      <img className="logos" src={TailWind} />
+      <img className="logos" src={Python} />
+      <img className="logos" src={MYSQL} />
+      <img className="logos" src={Node} />
+      <img className="logos" src={git} />
     </div>
   );
 }

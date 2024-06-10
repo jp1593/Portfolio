@@ -4,7 +4,8 @@
 }
 
 .logos-slide { 
-    animation: 5s slide infinite linear;
+    
+        animation: 5s slide infinite linear;
 }
 
 @keyframes slide{
