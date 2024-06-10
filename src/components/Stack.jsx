@@ -1,7 +1,7 @@
 import "./Stack.css";
 import HTML from "../assets/html-1.svg"
 import CSS from "../assets/css-3.svg"
-import React from "../assets/React Logo.svg"
+import React from "../assets/React-Logo.svg"
 import Python from "../assets/python-svgrepo-com.svg"
 import JS from "../assets/logo-javascript.svg"
 import MYSQL from "../assets/mysql-ar21.svg"
