@@ -12,27 +12,32 @@ import Svelte from "../assets/svelte-1.svg";
 
 export default function Stack() {
   return (
-    <div className="flex logos-slide overflow-hidden mt-10">
-      <img className="logos" src={HTML} />
-      <img className="logos" src={CSS} />
-      <img className="logos" src={React} />
-      <img className="logos" src={Svelte} />
-      <img className="logos" src={JS} />
-      <img className="logos" src={TailWind} />
-      <img className="logos" src={Python} />
-      <img className="logos" src={MYSQL} />
-      <img className="logos" src={Node} />
-      <img className="logos" src={git} />
-      <img className="logos" src={HTML} />
-      <img className="logos" src={CSS} />
-      <img className="logos" src={React} />
-      <img className="logos" src={Svelte} />
-      <img className="logos" src={JS} />
-      <img className="logos" src={TailWind} />
-      <img className="logos" src={Python} />
-      <img className="logos" src={MYSQL} />
-      <img className="logos" src={Node} />
-      <img className="logos" src={git} />
-    </div>
+    <section className="logos-section">
+        <h1 className="text-white text-4xl mt-20"> Technology Stack </h1>
+      <div className="logos-div">
+        <div className="logos-slide">
+          <img className="logos" src={HTML} />
+          <img className="logos" src={CSS} />
+          <img className="logos" src={React} />
+          <img className="logos" src={Svelte} />
+          <img className="logos" src={JS} />
+          <img className="logos" src={TailWind} />
+          <img className="logos" src={MYSQL} />
+          <img className="logos" src={Python} />
+          <img className="logos" src={Node} />
+          <img className="logos" src={git} />
+          <img className="logos" src={HTML} />
+          <img className="logos" src={CSS} />
+          <img className="logos" src={React} />
+          <img className="logos" src={Svelte} />
+          <img className="logos" src={JS} />
+          <img className="logos" src={TailWind} />
+          <img className="logos" src={MYSQL} />
+          <img className="logos" src={Python} />
+          <img className="logos" src={Node} />
+          <img className="logos" src={git} />
+        </div>
+      </div>
+    </section>
   );
 }
